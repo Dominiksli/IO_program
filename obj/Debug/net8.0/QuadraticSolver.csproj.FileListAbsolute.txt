@@ -1,0 +1,4 @@
+C:\Users\domin\QuadraticSolver\obj\Debug\net8.0\QuadraticSolver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\domin\QuadraticSolver\obj\Debug\net8.0\QuadraticSolver.AssemblyInfoInputs.cache
+C:\Users\domin\QuadraticSolver\obj\Debug\net8.0\QuadraticSolver.AssemblyInfo.cs
+C:\Users\domin\QuadraticSolver\obj\Debug\net8.0\QuadraticSolver.csproj.CoreCompileInputs.cache
