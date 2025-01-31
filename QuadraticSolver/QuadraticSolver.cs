@@ -1,4 +1,4 @@
-﻿namespace QuadraticSolverNamespace  // <-- Czy to istnieje?
+﻿namespace QuadraticSolverNamespace 
 {
     public class QuadraticSolver
     {
