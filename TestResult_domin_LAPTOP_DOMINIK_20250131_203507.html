@@ -1,0 +1,80 @@
+﻿<html xmlns:tp="http://schemas.datacontract.org/2004/07/Microsoft.VisualStudio.TestPlatform.Extensions.HtmlLogger.ObjectModel" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <body>
+    <h1>Test run details</h1>
+    <div class="summary">
+      <div class="block"><span>Total tests</span><div class="total-tests">3</div><br></div>
+      <div class="block"><span>Passed  : </span><span class="passedTests">3</span><br><span>Failed  : </span><span class="failedTests">0</span><br><span>Skipped : </span><span class="skippedTests">0</span><br></div>
+      <div class="block"><span>Pass percentage</span><div class="pass-percentage">100 %</div><br></div>
+      <div class="block"><span>Run duration</span><div class="test-run-time">456ms</div><br></div><br></div>
+    <h2>All Results</h2><details><summary>C:\Users\domin\QuadraticSolver\QuadraticSolver.Tests\bin\Debug\net8.0\QuadraticSolver.Tests.dll</summary><div class="inner-row" Id="1573236349">
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> QuadraticSolverTests.TestSolveQuadratic(a: 1, b: 2, c: 3, expectedRoot1: null, expectedRoot2: null)​</span><div class="duration"><span>4ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> QuadraticSolverTests.TestSolveQuadratic(a: 1, b: -3, c: 2, expectedRoot1: 2, expectedRoot2: 1)​</span><div class="duration"><span>1ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> QuadraticSolverTests.TestSolveQuadratic(a: 1, b: -2, c: 1, expectedRoot1: 1, expectedRoot2: null)​</span><div class="duration"><span>&lt; 1ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+      </div></details><div>
+      <h2>Informational messages</h2><span>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.0.1+f8675c32e5 (64-bit .NET 8.0.12)</span><br><span>[xUnit.net 00:00:00.05]   Discovering: QuadraticSolver.Tests</span><br><span>[xUnit.net 00:00:00.08]   Discovered:  QuadraticSolver.Tests</span><br><span>[xUnit.net 00:00:00.09]   Starting:    QuadraticSolver.Tests</span><br><span>?? TEST: R�wnanie 1x2 + 2x + 3 = 0</span><br><span>?? Oczekiwane wyniki: , </span><br><span>? Obliczone wyniki: , </span><br><span>----------------------------------</span><br><span>?? TEST: R�wnanie 1x2 + -3x + 2 = 0</span><br><span>?? Oczekiwane wyniki: 2, 1</span><br><span>? Obliczone wyniki: 2, 1</span><br><span>----------------------------------</span><br><span>?? TEST: R�wnanie 1x2 + -2x + 1 = 0</span><br><span>?? Oczekiwane wyniki: 1, </span><br><span>? Obliczone wyniki: 1, </span><br><span>----------------------------------</span><br><span>[xUnit.net 00:00:00.12]   Finished:    QuadraticSolver.Tests</span><br></div>
+  </body>
+  <style>
+        body { font-family: Calibri, Verdana, Arial, sans-serif; background-color: White; color: Black; }
+        h2 {
+        margin-top: 15px;
+        margin-bottom:10px;
+        }
+        pre {
+        white-space: pre-wrap;
+        }
+        .summary {font-family:monospace;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#d7e9fa;
+        }
+        .list-row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#ffffff;
+        }
+        .inner-row{
+        border: 2px solid #ffffff;
+        padding-left:1%;
+        margin-left:1%;
+        background-color:#ffffff;
+        }
+        .block{
+        width : 150px;
+        }
+        .leaf-division{
+        border: 2px solid #ffffff;
+        background-color:#e6eff7;
+        }
+        .pass { color: #0c0; }
+        .fail { color: #c00; }
+        .error-message { color : brown; }
+        .error-stack-trace { color: brown; }
+        .duration {float:right;padding-right:1%;}
+        .total-tests { font-size : 30px}
+        .test-run-time { font-size : 30px}
+        .pass-percentage { font-size : 30px}
+        .error-info{
+        margin-left:16px;
+        }
+      </style>
+</html>
